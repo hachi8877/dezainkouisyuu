@@ -1,0 +1,155 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>20220611</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"
+ type="text/javascript"></script>
+ <script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="jquery.bxSlider.min.js"></script>
+<script>
+$(function(){
+	 $('.bxslider').bxSlider({
+    mode:'fade',
+    speed: 1000,
+		auto: true,
+    pause: 2000,
+		slideWidth: 640,
+		minSlides: 3,
+    autoStart: false,
+    controls: true
+	});
+  $('.bxslider2').bxSlider({
+    mode:'horizontal',
+    speed: 500,
+		auto: true,
+		slideWidth: 640,
+    infiniteLoop: false,
+    preventDefaultSwipeX: false,
+    buildPager: true,
+    pagerCustom: '.bxslider_thumbnail',
+	});
+});
+</script>
+  </head>
+  <body>
+    <div class="box">
+      <h1>フォトギャラリー(HTML&CSS)</h1>
+      <div class="box1">
+        <li><img src="..\photo_01.png"></li>
+        <li><img src="..\photo_02.png"></li>
+        <li><img src="..\photo_03.png"></li>
+      </div>
+      <div class="box1">
+        <li><img src="C:\Users\user\Desktop\20220611\photo\photo_04.png"></li>
+        <li><img src="C:\Users\user\Desktop\20220611\photo\photo_05.png"></li>
+        <li><img src="C:\Users\user\Desktop\20220611\photo\photo_06.png"></li>
+      </div>
+      <div class="box1">
+        <li><img src="C:\Users\user\Desktop\20220611\photo\photo_07.png"></li>
+        <li><img src="C:\Users\user\Desktop\20220611\photo\photo_08.png"></li>
+        <li><img src="C:\Users\user\Desktop\20220611\photo\photo_09.png"></li>
+      </div>
+    </div>
+
+  <div class="box">
+    <h1>フォトギャラリー(Lightbox)</h1>
+    <div class="box1">
+      <li>  <a href="C:\Users\user\Desktop\20220611\photo\photo_01.png" data-lightbox="hoge" data-title="sample">
+        <img src="C:\Users\user\Desktop\20220611\photo\photo_01.png" alt="sample画像">
+       </a></li>
+       <li>  <a href="C:\Users\user\Desktop\20220611\photo\photo_02.png" data-lightbox="hoge" data-title="sample">
+        <img src="C:\Users\user\Desktop\20220611\photo\photo_02.png" alt="sample画像">
+       </a></li>
+       <li>  <a href="C:\Users\user\Desktop\20220611\photo\photo_03.png" data-lightbox="hoge" data-title="sample">
+        <img src="C:\Users\user\Desktop\20220611\photo\photo_03.png" alt="sample画像">
+       </a></li>
+       <li>  <a href="C:\Users\user\Desktop\20220611\photo\photo_04.png" data-lightbox="hoge" data-title="sample">
+        <img src="C:\Users\user\Desktop\20220611\photo\photo_04.png" alt="sample画像">
+       </a></li>
+       <li>  <a href="C:\Users\user\Desktop\20220611\photo\photo_05.png" data-lightbox="hoge" data-title="sample">
+        <img src="C:\Users\user\Desktop\20220611\photo\photo_05.png" alt="sample画像">
+       </a></li>
+       <li>  <a href="C:\Users\user\Desktop\20220611\photo\photo_06.png" data-lightbox="hoge" data-title="sample">
+        <img src="C:\Users\user\Desktop\20220611\photo\photo_06.png" alt="sample画像">
+       </a></li>
+    </div>
+    <div class="box1">
+      <li>  <a href="C:\Users\user\Desktop\20220611\photo\photo_07.png" data-lightbox="hoge1" data-title="sample">
+        <img src="C:\Users\user\Desktop\20220611\photo\photo_07.png" alt="sample画像">
+       </a></li>
+       <li>  <a href="C:\Users\user\Desktop\20220611\photo\photo_08.png" data-lightbox="hoge1" data-title="sample">
+        <img src="C:\Users\user\Desktop\20220611\photo\photo_08.png" alt="sample画像">
+       </a></li>
+       <li>  <a href="C:\Users\user\Desktop\20220611\photo\photo_09.png" data-lightbox="hoge1" data-title="sample">
+        <img src="C:\Users\user\Desktop\20220611\photo\photo_09.png" alt="sample画像">
+       </a></li>
+       <li>  <a href="C:\Users\user\Desktop\20220611\photo\photo_10.png" data-lightbox="hoge1" data-title="sample">
+        <img src="C:\Users\user\Desktop\20220611\photo\photo_10.png" alt="sample画像">
+       </a></li>
+       <li>  <a href="C:\Users\user\Desktop\20220611\photo\photo_11.png" data-lightbox="hoge1" data-title="sample">
+        <img src="C:\Users\user\Desktop\20220611\photo\photo_11.png" alt="sample画像">
+       </a></li>
+       <li>  <a href="C:\Users\user\Desktop\20220611\photo\photo_12.png" data-lightbox="hoge1" data-title="sample">
+        <img src="C:\Users\user\Desktop\20220611\photo\photo_12.png" alt="sample画像">
+       </a></li>
+    </div>
+    <div class="box1">
+      <li>  <a href="C:\Users\user\Desktop\20220611\photo\photo_13.png" data-lightbox="hoge2" data-title="sample">
+        <img src="C:\Users\user\Desktop\20220611\photo\photo_13.png" alt="sample画像">
+       </a></li>
+       <li>  <a href="C:\Users\user\Desktop\20220611\photo\photo_14.png" data-lightbox="hoge2" data-title="sample">
+        <img src="C:\Users\user\Desktop\20220611\photo\photo_14.png" alt="sample画像">
+       </a></li>
+       <li>  <a href="C:\Users\user\Desktop\20220611\photo\photo_15.png" data-lightbox="hoge2" data-title="sample">
+        <img src="C:\Users\user\Desktop\20220611\photo\photo_15.png" alt="sample画像">
+       </a></li>
+       <li>  <a href="C:\Users\user\Desktop\20220611\photo\photo_16.png" data-lightbox="hoge2" data-title="sample">
+        <img src="C:\Users\user\Desktop\20220611\photo\photo_16.png" alt="sample画像">
+       </a></li>
+       <li>  <a href="C:\Users\user\Desktop\20220611\photo\photo_17.png" data-lightbox="hoge2" data-title="sample">
+        <img src="C:\Users\user\Desktop\20220611\photo\photo_17.png" alt="sample画像">
+       </a></li>
+       <li>  <a href="C:\Users\user\Desktop\20220611\photo\photo_18.png" data-lightbox="hoge2" data-title="sample">
+        <img src="C:\Users\user\Desktop\20220611\photo\photo_18.png" alt="sample画像">
+       </a></li>
+    </div>
+  </div>
+  <div class="box2">
+    <h1>フォトギャラリー(bxSlider①)</h1>
+  <ul class="bxslider">
+    <li><img src="C:\Users\user\Desktop\20220611\photo\photo_01.png" width="640"></li>
+    <li><img src="C:\Users\user\Desktop\20220611\photo\photo_18.png" width="640"></li>
+    <li><img src="C:\Users\user\Desktop\20220611\photo\photo_17.png" width="640"></li>
+    <li><img src="C:\Users\user\Desktop\20220611\photo\photo_03.png" width="640"></li>
+  </ul>
+  </div>
+
+  <div class="box2">
+    <h1>フォトギャラリー(bxSlider②)</h1>
+  <ul class="bxslider2">
+    <li><img src="C:\Users\user\Desktop\20220611\photo\photo_01.png" width="640"></li>
+    <li><img src="C:\Users\user\Desktop\20220611\photo\photo_18.png" width="640" ></li>
+    <li><img src="C:\Users\user\Desktop\20220611\photo\photo_17.png" width="640" ></li>
+    <li><img src="C:\Users\user\Desktop\20220611\photo\photo_03.png" width="640" ></li>
+    <li><img src="C:\Users\user\Desktop\20220611\photo\photo_02.png" width="640" ></li>
+    <li><img src="C:\Users\user\Desktop\20220611\photo\photo_05.png" width="640" ></li>
+    <li><img src="C:\Users\user\Desktop\20220611\photo\photo_06.png" width="640" ></li>
+    <li><img src="C:\Users\user\Desktop\20220611\photo\photo_03.png" width="640" ></li>
+  </ul>
+  <div class="box3">
+  <ul class="bxslider_thumbnail">
+    <li><a data-slide-index="0" href=""><img src="C:\Users\user\Desktop\20220611\photo\photo_01.png" alt=""></a></li>
+    <li><a data-slide-index="1" href=""><img src="C:\Users\user\Desktop\20220611\photo\photo_18.png" alt=""></a></li>
+    <li><a data-slide-index="2" href=""><img src="C:\Users\user\Desktop\20220611\photo\photo_17.png" alt=""></a></li>
+    <li><a data-slide-index="3" href=""><img src="C:\Users\user\Desktop\20220611\photo\photo_03.png" alt=""></a></li>
+    <li><a data-slide-index="0" href=""><img src="C:\Users\user\Desktop\20220611\photo\photo_02.png" alt=""></a></li>
+    <li><a data-slide-index="1" href=""><img src="C:\Users\user\Desktop\20220611\photo\photo_04.png" alt=""></a></li>
+    <li><a data-slide-index="2" href=""><img src="C:\Users\user\Desktop\20220611\photo\photo_06.png" alt=""></a></li>
+    <li><a data-slide-index="3" href=""><img src="C:\Users\user\Desktop\20220611\photo\photo_08.png" alt=""></a></li>
+  </ul>
+</div>
+  </div>
+  </body>
